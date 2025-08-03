@@ -1,0 +1,3 @@
+function findSongIndex(playlist, songTitle) {
+  return playlist.indexOf(songTitle);
+}
