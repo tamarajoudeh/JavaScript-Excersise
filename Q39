@@ -1,0 +1,5 @@
+function containsElement(array, element) {
+    return array.includes(element);
+}
+
+
