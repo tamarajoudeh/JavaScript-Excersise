@@ -1,0 +1,13 @@
+function startCountdown(seconds) {
+  let counter = seconds;
+
+  let interval = setInterval(() => {
+    console.log(counter); // عرض العد التنازلي
+    counter--;
+
+    if counter < 0) {
+      clearInterval(interval);
+      console.log("Time's up!");
+    }
+
+
