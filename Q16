@@ -1,0 +1,9 @@
+function findMax(stepsArray) {
+  let max = stepsArray[0];
+  for (let steps of stepsArray) {
+    if (steps > max) {
+      max = steps;
+    }
+  }
+  return max;
+}
