@@ -1,0 +1,7 @@
+function assignSection(ticketNumber) {
+  if (ticketNumber % 2 === 0) {
+    return "Section A";
+  } else {
+    return "Section B"; 
+  }
+}
