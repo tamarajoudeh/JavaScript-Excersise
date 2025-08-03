@@ -1,0 +1,9 @@
+function countOccurrences(arr, value) {
+  let count = 0;
+  for (let item of arr) {
+    if (item == value) {
+      count++;
+    }
+  }
+  return count;
+}
