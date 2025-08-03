@@ -1,0 +1,5 @@
+function startsWithSubstring(str, substring) {
+  return str.startsWith(substring);
+}
+
+
