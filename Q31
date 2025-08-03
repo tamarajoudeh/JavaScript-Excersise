@@ -1,0 +1,5 @@
+function endsWithSubstring(str, substring) {
+  return str.endsWith(substring
+}
+
+
