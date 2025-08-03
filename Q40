@@ -1,0 +1,4 @@
+function getInventoryCount(productIDs) {
+    return productIDs.length;
+}
+
