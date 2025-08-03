@@ -1,0 +1,5 @@
+function getCharacterAtIndex(str, index) {
+  return str.charAt(index);
+}
+
+
