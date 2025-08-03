@@ -1,0 +1,4 @@
+function containsSubstring post, word) {
+  return post.includes(word)
+
+
