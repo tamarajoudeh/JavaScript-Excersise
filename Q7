@@ -1,0 +1,9 @@
+function sumOfDigits(numbr) {
+  let sum = 0;
+  let numStr = number.toString(); 
+
+  for let digit of numStr) {
+    sum += parseInt(digit;
+  }
+return sum;
+}
