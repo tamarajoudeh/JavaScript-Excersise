@@ -1,0 +1,7 @@
+function isPalindrome(username) {
+  let cleaned = username.toLowerCase().replace(/[^a-z0-9]/g, '');
+  let reversed = cleaned.split('').reverse().join('');
+
+  return cleaned === reversed;
+}
+
