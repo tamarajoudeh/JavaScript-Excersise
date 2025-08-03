@@ -1,0 +1,12 @@
+let product1 = "iPhone";
+let product2 = "Samsung";
+
+console.log("Product1:", product1);
+console.log("Product2:", product2);
+
+let temp = product1;
+product1 = product2;
+product2 = temp;
+
+console.log("Product 1:", product1);
+console.log("Product 2:", product2);
