@@ -1,0 +1,3 @@
+function trimWhitespace(str) {
+  return str.trim();
+}
