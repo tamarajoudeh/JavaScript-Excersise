@@ -1,0 +1,8 @@
+function findMin(expenses) {
+  let min = expense 0];
+  for (let amount of expenses) {
+    if (amount < min) {
+      min = amount;
+    }
+  }
+  return mi
